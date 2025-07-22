@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email_address": "kieran.barker@multiverse.io",
+      "password_hash": "$argon2id$v=19$m=65536,t=3,p=4$gNmTQ8imMkzakffKMlEGtg$eRzFxj7Ls8O1p2ko+/AJTuOID2WUYZIa1sZK20HI0h0"
+    },
+    {
+      "id": 2,
+      "email_address": "jordan.mcnamara@multiverse.io",
+      "password_hash": "$argon2id$v=19$m=65536,t=3,p=4$/OrDhaofM8TIOqcmdFRwMQ$cDhh+Td0ERBxJserzoO9LK9Ib7bx5LGzS1G09Mu1Ns8"
+    }
+  ],
+  "cupcakes": [
+    {
+      "id": 1,
+      "flavour": "Chocolate",
+      "instructions": "9a47eb1b62e0c887afb33acb9583f954da27ab5e069590ed0beb15dfa172c248100fe47bd52f073e335706d3acc52e6195ddf0",
+      "user_id": 1
+    },
+    {
+      "id": 2,
+      "flavour": "Vanilla",
+      "instructions": "cb0dcca458fe7051de0870973a527b51567283b1e1f7a0cee33b9ed3474994a473a8f486b315c992cb7d8909",
+      "user_id": 1
+    },
+    {
+      "id": 3,
+      "flavour": "Red Velvet",
+      "instructions": "d0aa461df00f32901f0556afb05afa34914082db10f607ca568dcc8be5d6fc2fab4286b4363abb",
+      "user_id": 1
+    },
+    {
+      "id": 4,
+      "flavour": "Chocolate",
+      "instructions": "5754118f626e917bab72cd0842bc1c64f642015cd501da41f52e21518c61c601d092ebf05b498a6b85e7",
+      "user_id": 1
+    },
+    {
+      "id": 5,
+      "flavour": "Chocolate",
+      "instructions": "f970f00c3be500a7aa3e8cb0538a8eb1550322b6e5061a883cf7b2fb1237aa30030d9eb9fb3015443fa0c29d7fc03b3f862924",
+      "user_id": 2
+    },
+    {
+      "id": 6,
+      "flavour": "Strawberry",
+      "instructions": "69ed974d37aad539d6f35225a842786eb59d5dfe4f7114502c9cf1db69201d40f05e66ee87a18d52a7f5d04df8c1f8a261bf",
+      "user_id": 2
+    },
+    {
+      "id": 7,
+      "flavour": "Marble",
+      "instructions": "e534c776b9a78fdb095c8e96ea1be0040fbc6397f45cb69520cbdc82761151addfcd9940b7c38fefdfe34c2c5d4f896ef3d6a0928f5a017b1b49818131d3",
+      "user_id": 2
+    },
+    {
+      "id": 8,
+      "flavour": "Strawberry",
+      "instructions": "c0b3baa75a441f90d44d1ac4d5fa48e911201cf3ce2114e92225a033912b03c6dc980adb1ed8c6563699aaa1f08dcb5f2ad650e5d4684b58abf85cbd",
+      "user_id": 2
+    }
+  ]
+}
