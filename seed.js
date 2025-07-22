@@ -5,19 +5,19 @@ db.exec(`
   DROP TABLE IF EXISTS users;
   DROP TABLE IF EXISTS cupcakes;
 
-	CREATE TABLE IF NOT EXISTS users (
-		id INTEGER PRIMARY KEY,
-		email_address TEXT UNIQUE,
-		password_hash TEXT
-	);
-	
-	CREATE TABLE IF NOT EXISTS cupcakes (
-		id INTEGER PRIMARY KEY,
-		flavour TEXT,
-		instructions TEXT,
-		user_id INTEGER,
-		FOREIGN KEY(user_id) REFERENCES users(id)
-	);
+  CREATE TABLE IF NOT EXISTS users (
+    id INTEGER PRIMARY KEY,
+    email_address TEXT UNIQUE,
+    password_hash TEXT
+  );
+
+  CREATE TABLE IF NOT EXISTS cupcakes (
+    id INTEGER PRIMARY KEY,
+    flavour TEXT,
+    instructions TEXT,
+    user_id INTEGER,
+    FOREIGN KEY(user_id) REFERENCES users(id)
+  );
 `);
 
 const insertUser = db.prepare(
