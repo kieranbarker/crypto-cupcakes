@@ -14,7 +14,7 @@ app.use("/cupcakes", require("./routes/cupcakes"));
 app.post("/register", async (req, res) => {
   const insert = db.prepare(
     `INSERT INTO users (email_address, password_hash)
-		VALUES (:email_address, :password_hash)`
+    VALUES (:email_address, :password_hash)`
   );
 
   const email_address = req.body.email_address;
